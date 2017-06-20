@@ -30,6 +30,7 @@
     "config-file": "^0.3.2",
     "dumper": "^1.0.12",
     "mongodb": "^2.2.29",
+    "obj-tools": "^1.0.4",
     "process-title": "^1.0.0",
     "restler": "^3.4.0",
     "string": "^3.3.3",
