@@ -1,8 +1,13 @@
 {
 	"hostname" : "myserver",
 	"fqdn" : "myserver.mydomain",
-	"logfile" : "/var/log/node-sbc.log",
-	"debug" : false,
+	"logging" : {
+		"file" : "/tmp/node-sbc.log",
+		"level" : "debug"
+	},
+	"console" : {
+		"level": "debug"
+	},
 	"database": {
 		"url": "mongodb://localhost:27017/node-sbc",
 		"poolSize": 24
