@@ -137,7 +137,9 @@ function init(){
 				do_shutdown();
 			}
 
-			logger.info("Using settings version " + settings['_id'] + " updated at " + settings['timestamp'] );
+			if( isObject(settings) ){
+				logger.info("Using settings version " + settings['_id'] + " updated at " + settings['timestamp'] );
+			}
 		});
 
 		setInterval( function(){ monitor_settings(); },60000);
