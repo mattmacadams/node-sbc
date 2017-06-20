@@ -3,4 +3,8 @@
 	"fqdn" : "myserver.mydomain",
 	"logfile" : "/var/log/node-sbc.log",
 	"debug" : false,
+	"database": {
+		"url": "mongodb://localhost:27017/node-sbc",
+		"poolSize": 24
+	}
 }
