@@ -1,0 +1,26 @@
+{
+  "name": "node-sbc",
+  "version": "1.0.0",
+  "description": "SIP Session Border Controller, written in Node",
+  "main": "app/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattmacadams/node-sbc.git"
+  },
+  "keywords": [
+    "SIP",
+    "VoIP",
+    "Session",
+    "Border",
+    "Controller"
+  ],
+  "author": "Matt MacAdams",
+  "license": "The Unlicense (see https://unlicense.org)",
+  "bugs": {
+    "url": "https://github.com/mattmacadams/node-sbc/issues"
+  },
+  "homepage": "https://github.com/mattmacadams/node-sbc#readme"
+}
