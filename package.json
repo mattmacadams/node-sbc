@@ -18,9 +18,22 @@
     "Controller"
   ],
   "author": "Matt MacAdams",
-  "license": "The Unlicense (see https://unlicense.org)",
+  "license": "Unlicense",
   "bugs": {
     "url": "https://github.com/mattmacadams/node-sbc/issues"
   },
-  "homepage": "https://github.com/mattmacadams/node-sbc#readme"
+  "homepage": "https://github.com/mattmacadams/node-sbc#readme",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "cacheman": "^2.2.1",
+    "cacheman-memory": "^1.0.2",
+    "config-file": "^0.3.2",
+    "dumper": "^1.0.12",
+    "mongodb": "^2.2.29",
+    "process-title": "^1.0.0",
+    "restler": "^3.4.0",
+    "string": "^3.3.3",
+    "uuid": "^3.1.0",
+    "winston": "^2.3.1"
+  }
 }
