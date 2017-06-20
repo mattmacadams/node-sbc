@@ -1,0 +1,6 @@
+{
+	"hostname" : "myserver",
+	"fqdn" : "myserver.mydomain",
+	"logfile" : "/var/log/node-sbc.log",
+	"debug" : false,
+}
