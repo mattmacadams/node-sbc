@@ -1,0 +1,15 @@
+[Unit]
+Description=Session Border Controller
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/nodejs !!!REPLACE_ME_WITH_FULL_PATH_TO_INSTALL_DIRECTORY!!!/app/app.js
+RestartSec=3
+Restart=on-failure
+StandardOutput=
+StandardError=syslog
+SyslogIdentifier=session-border-controller
+TimeoutStopSec=10
+
+[Install]
+WantedBy=multi-user.target
