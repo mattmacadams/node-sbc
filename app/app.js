@@ -14,9 +14,9 @@ var OBJ = require('obj-tools');
 
 var config = configfile(__dirname + '/../config.json') || {};
 
-config.logging.level ?= 'debug';
-config.logging.file ?= '/var/log/node-sbc.log';
-config.console.level ?= 'debug';
+config.logging.level = config.logging.level || 'debug';
+config.logging.file = config.logging.file || '/var/log/node-sbc.log';
+config.console.level = config.console.level || 'debug';
 
 
 logger = new winston.Logger({
